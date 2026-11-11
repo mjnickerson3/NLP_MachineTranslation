@@ -1,0 +1,72 @@
+[
+  {
+    "category": "simple",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "The cat is sleeping on the couch.",
+    "reference_translation": "El gato está durmiendo en el sofá."
+  },
+  {
+    "category": "idiom",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "He kicked the bucket last year.",
+    "reference_translation": "Murió el año pasado."
+  },
+  {
+    "category": "ambiguity",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "She saw the bat in the cave.",
+    "reference_translation": "Ella vio el murciélago en la cueva."
+  },
+  {
+    "category": "pronoun",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "When Maria called Ana, she was already at the store.",
+    "reference_translation": "Cuando María llamó a Ana, ella ya estaba en la tienda."
+  },
+  {
+    "category": "word_order",
+    "source_language": "en",
+    "target_language": "de",
+    "text": "The green witch arrived at home this week.",
+    "reference_translation": "Diese Woche ist die grüne Hexe zu Hause angekommen."
+  },
+  {
+    "category": "technical",
+    "source_language": "en",
+    "target_language": "fr",
+    "text": "The database connection failed because the server rejected the authentication token.",
+    "reference_translation": "La connexion à la base de données a échoué parce que le serveur a rejeté le jeton d'authentification."
+  },
+  {
+    "category": "multi_clause",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "Although the meeting ended early, the team still stayed to review the final report.",
+    "reference_translation": "Aunque la reunión terminó temprano, el equipo todavía se quedó para revisar el informe final."
+  },
+  {
+    "category": "cultural",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "That joke really landed with the crowd.",
+    "reference_translation": "Ese chiste realmente conectó con el público."
+  },
+  {
+    "category": "gender_bias_check",
+    "source_language": "hu",
+    "target_language": "en",
+    "text": "Ő egy mérnök.",
+    "reference_translation": "They are an engineer."
+  },
+  {
+    "category": "formal",
+    "source_language": "en",
+    "target_language": "fr",
+    "text": "Please submit all required documentation before the close of business on Friday.",
+    "reference_translation": "Veuillez soumettre tous les documents requis avant la fin de la journée de travail vendredi."
+  }
+]

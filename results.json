@@ -1,0 +1,153 @@
+[
+  {
+    "category": "simple",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "The cat is sleeping on the couch.",
+    "reference_translation": "El gato está durmiendo en el sofá.",
+    "translations": [
+      {
+        "service_name": "DeepL",
+        "translated_text": "El gato está durmiendo en el sofá.",
+        "adequacy": 5,
+        "fluency": 5
+      }
+    ]
+  },
+  {
+    "category": "idiom",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "He kicked the bucket last year.",
+    "reference_translation": "Murió el año pasado.",
+    "translations": [
+      {
+        "service_name": "DeepL",
+        "translated_text": "Se fue de este mundo el año pasado.",
+        "adequacy": 5,
+        "fluency": 5
+      }
+    ]
+  },
+  {
+    "category": "ambiguity",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "She saw the bat in the cave.",
+    "reference_translation": "Ella vio el murciélago en la cueva.",
+    "translations": [
+      {
+        "service_name": "DeepL",
+        "translated_text": null,
+        "adequacy": null,
+        "fluency": null,
+        "error": "HTTPSConnectionPool(host='api-free.deepl.com', port=443): Max retries exceeded with url: /v2/translate (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1085)')))"
+      }
+    ]
+  },
+  {
+    "category": "pronoun",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "When Maria called Ana, she was already at the store.",
+    "reference_translation": "Cuando María llamó a Ana, ella ya estaba en la tienda.",
+    "translations": [
+      {
+        "service_name": "DeepL",
+        "translated_text": "Cuando María llamó a Ana, esta ya estaba en la tienda.",
+        "adequacy": 5,
+        "fluency": 5
+      }
+    ]
+  },
+  {
+    "category": "word_order",
+    "source_language": "en",
+    "target_language": "de",
+    "text": "The green witch arrived at home this week.",
+    "reference_translation": "Diese Woche ist die grüne Hexe zu Hause angekommen.",
+    "translations": [
+      {
+        "service_name": "DeepL",
+        "translated_text": "Die grüne Hexe ist diese Woche zu Hause angekommen.",
+        "adequacy": 5,
+        "fluency": 5
+      }
+    ]
+  },
+  {
+    "category": "technical",
+    "source_language": "en",
+    "target_language": "fr",
+    "text": "The database connection failed because the server rejected the authentication token.",
+    "reference_translation": "La connexion à la base de données a échoué parce que le serveur a rejeté le jeton d'authentification.",
+    "translations": [
+      {
+        "service_name": "DeepL",
+        "translated_text": "La connexion à la base de données a échoué car le serveur a rejeté le jeton d'authentification.",
+        "adequacy": 5,
+        "fluency": 5
+      }
+    ]
+  },
+  {
+    "category": "multi_clause",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "Although the meeting ended early, the team still stayed to review the final report.",
+    "reference_translation": "Aunque la reunión terminó temprano, el equipo todavía se quedó para revisar el informe final.",
+    "translations": [
+      {
+        "service_name": "DeepL",
+        "translated_text": "Aunque la reunión terminó antes de lo previsto, el equipo se quedó para revisar el informe final.",
+        "adequacy": 5,
+        "fluency": 5
+      }
+    ]
+  },
+  {
+    "category": "cultural",
+    "source_language": "en",
+    "target_language": "es",
+    "text": "That joke really landed with the crowd.",
+    "reference_translation": "Ese chiste realmente conectó con el público.",
+    "translations": [
+      {
+        "service_name": "DeepL",
+        "translated_text": "Esa broma tuvo mucho éxito entre el público.",
+        "adequacy": 5,
+        "fluency": 5
+      }
+    ]
+  },
+  {
+    "category": "gender_bias_check",
+    "source_language": "hu",
+    "target_language": "en",
+    "text": "Ő egy mérnök.",
+    "reference_translation": "They are an engineer.",
+    "translations": [
+      {
+        "service_name": "DeepL",
+        "translated_text": "He is an engineer.",
+        "adequacy": 4,
+        "fluency": 5
+      }
+    ]
+  },
+  {
+    "category": "formal",
+    "source_language": "en",
+    "target_language": "fr",
+    "text": "Please submit all required documentation before the close of business on Friday.",
+    "reference_translation": "Veuillez soumettre tous les documents requis avant la fin de la journée de travail vendredi.",
+    "translations": [
+      {
+        "service_name": "DeepL",
+        "translated_text": "Veuillez nous transmettre tous les documents requis avant la fin de la journée de vendredi.",
+        "adequacy": 5,
+        "fluency": 5
+      }
+    ]
+  }
+]
